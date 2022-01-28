@@ -444,22 +444,26 @@
     }
 
     .header-row_right {
-        height: 12.530vw;
-        a {
+        .header-row_right-decorative_button {
             background-color: #B0842C;
             color: #FFFFFF;
-            font-size: 5.783vw;
             font-weight: 700;
             line-height: 1.823vw;
             letter-spacing: 0;
             transition: .25s;
             border: 0.052vw solid transparent;
-        }
+            padding: 5.392vw 7.194vw;
 
-        a:hover {
-            background-color: #FFFFFF;
-            color: #B0842C;
-            border: 0.052vw solid #B0842C;
+            a {
+                color: #FFFFFF;
+                font-size: 5.783vw;
+            }
+
+            a:hover {
+                background-color: #FFFFFF;
+                color: #B0842C;
+                border: 0.052vw solid #B0842C;
+            }
         }
     }
 }
