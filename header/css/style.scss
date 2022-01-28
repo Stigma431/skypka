@@ -20,7 +20,7 @@
 }
 
 .header-item {
-    font-size: 1.250vw;
+    font-size: 1vw;
     font-weight: 400;
     line-height: 1.458vw;
     letter-spacing: 0em;
@@ -46,75 +46,6 @@
 
 .deviders-header {
     height: 2.083vw;
-}
-
-@media all and (max-width: 415px) {
-    $coefficient: 4;
-
-    .container.contact-header_container {
-        margin: 0;
-        padding: 0 0;
-        background-color: #4D4D4D;
-    }
-
-    .header-row {
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .contact-header_container .header-row {
-        display: flex;
-        justify-content: space-between;
-        height: auto;
-        flex-wrap: wrap;
-    }
-
-    .header-item {
-        font-size: 2.892vw;
-        font-weight: 400;
-        line-height: 1.458vw * $coefficient;
-        letter-spacing: 0;
-        text-align: left;
-        color: #B3B3B3;
-        display: flex;
-        align-items: center;
-
-        img {
-            width: auto;
-            height: 4.892vw;
-            padding: 0 1.687vw;
-            vertical-align: middle;
-        }
-    }
-
-    .header-item_message {
-        justify-content: flex-end;
-    }
-
-    .header-item_phone {
-        img {
-            padding-left: 2.2vw;
-        }
-    }
-
-    .header-item_mobile-reverse {
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-    }
-
-    .header-item_left {
-        width: 34.799vw;
-    }
-
-    .header-item_right {
-        width: 58.031vw;
-    }
-
-    .deviders-header {
-        height: 2.083vw;
-        display: none;
-    }
-
 }
 
 .header-row_menu {
@@ -188,6 +119,10 @@
     }
 }
 
+.decorative-button {
+    height: 3.058vw;
+}
+
 .header-decorative_button {
     font-size: 1.563vw;
     font-weight: 700;
@@ -205,104 +140,6 @@
 .header-decorative_button:hover {
     background-color: #FFFFFF;
     color: $pink;
-}
-
-@media all and (max-width: 415px) {
-    $coefficient: 4;
-
-    .header-row_menu {
-        padding: 1.446vw 0;
-        display: flex;
-        align-items: center;
-    }
-
-    .logo {
-        width: 15.422vw;
-        height: 15.422vw;
-    }
-
-    .header-row {
-        ul {
-            width: 38.333vw;
-            display: none;
-            justify-content: space-between;
-        }
-    }
-
-    .main-nav {
-        font-size: 1.250vw;
-        font-weight: 400;
-        line-height: 1.458vw;
-        letter-spacing: 0;
-        text-align: left;
-        color: #4D4D4D;
-        transition: .25s;
-    }
-
-    .main-nav:hover {
-        color: $pink;
-    }
-
-    .map {
-        a {
-            display: flex;
-
-            img {
-                width: 6.024vw;
-                height: 6.024vw;
-                margin-right: 2.169vw;
-            }
-
-            font-size: 2.892vw;
-            font-weight: 400;
-            line-height: 3.388vw;
-            letter-spacing: 0;
-            text-align: left;
-            color: #4D4D4D;
-        }
-    }
-
-    .header-contacts {
-        display: flex;
-        justify-content: space-between;
-        width: 20.395vw;
-
-        a {
-            img {
-                width: 6.024vw;
-                height: 6.024vw;
-            }
-        }
-    }
-
-    .header-row {
-        button {
-            outline: 0;
-            border: 0;
-            background: transparent;
-        }
-    }
-
-    .header-decorative_button {
-        font-size: 2.410vw;
-        font-weight: 700;
-        line-height: 2.824vw;
-        letter-spacing: 0;
-        text-align: left;
-        color: #FFFFFF;
-        padding: 0.723vw 2.169vw;
-        background-color: $pink;
-        border-radius: 3.363vw;
-        border: 0.052vw solid $pink;
-        transition: .25s;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .header-decorative_button:hover {
-        background-color: #FFFFFF;
-        color: $pink;
-    }
 }
 
 .header-row_left {
@@ -379,6 +216,231 @@
 
 @media all and (max-width: 415px) {
     $coefficient: 4;
+
+    .container.contact-header_container {
+        margin: 0;
+        padding: 0 0;
+        background-color: #4D4D4D;
+    }
+
+    .header-row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-header_container .header-row {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .header-item {
+        font-size: 2.892vw;
+        font-weight: 400;
+        line-height: 1.458vw * $coefficient;
+        letter-spacing: 0;
+        text-align: left;
+        color: #B3B3B3;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: auto;
+            height: 4.892vw;
+            padding: 0 1.687vw;
+            vertical-align: middle;
+        }
+    }
+
+    .header-item_message {
+        justify-content: flex-end;
+    }
+
+    .header-item_phone {
+        img {
+            padding-left: 2.2vw;
+        }
+    }
+
+    .header-item_mobile-reverse {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .header-item_left {
+        width: 34.799vw;
+    }
+
+    .header-item_right {
+        width: 58.031vw;
+    }
+
+    .deviders-header {
+        height: 2.083vw;
+        display: none;
+    }
+    .container.contact-header_container {
+        margin: 0;
+        padding: 0 0;
+        background-color: #4D4D4D;
+    }
+
+    .header-row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-header_container .header-row {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .header-item {
+        font-size: 2.892vw;
+        font-weight: 400;
+        line-height: 1.458vw * $coefficient;
+        letter-spacing: 0;
+        text-align: left;
+        color: #B3B3B3;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: auto;
+            height: 4.892vw;
+            padding: 0 1.687vw;
+            vertical-align: middle;
+        }
+    }
+
+    .header-item_message {
+        justify-content: flex-end;
+    }
+
+    .header-item_phone {
+        img {
+            padding-left: 2.2vw;
+        }
+    }
+
+    .header-item_mobile-reverse {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .header-item_left {
+        width: 34.799vw;
+    }
+
+    .header-item_right {
+        width: 58.031vw;
+    }
+
+    .deviders-header {
+        height: 2.083vw;
+        display: none;
+    }
+
+    .header-row_menu {
+        padding: 1.446vw 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 15.422vw;
+        height: 15.422vw;
+    }
+
+    .header-row {
+        ul {
+            width: 38.333vw;
+            display: none;
+            justify-content: space-between;
+        }
+    }
+
+    .main-nav {
+        font-size: 1.250vw;
+        font-weight: 400;
+        line-height: 1.458vw;
+        letter-spacing: 0;
+        text-align: left;
+        color: #4D4D4D;
+        transition: .25s;
+    }
+
+    .main-nav:hover {
+        color: $pink;
+    }
+
+    .map {
+        a {
+            display: flex;
+
+            img {
+                width: 6.024vw;
+                height: 6.024vw;
+                margin-right: 2.169vw;
+            }
+
+            font-size: 2.892vw;
+            font-weight: 400;
+            line-height: 3.388vw;
+            letter-spacing: 0;
+            text-align: left;
+            color: #4D4D4D;
+        }
+    }
+
+    .header-contacts {
+        display: flex;
+        justify-content: space-between;
+        width: 20.395vw;
+
+        a {
+            img {
+                width: 6.024vw;
+                height: 6.024vw;
+            }
+        }
+    }
+
+    .header-row {
+        button {
+            outline: 0;
+            border: 0;
+            background: transparent;
+        }
+    }
+
+    .decorative-button {
+        height: auto;
+    }
+
+    .header-decorative_button {
+        font-size: 2.410vw;
+        font-weight: 700;
+        line-height: 2.824vw;
+        letter-spacing: 0;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 0.723vw 2.169vw;
+        background-color: $pink;
+        border-radius: 3.363vw;
+        border: 0.052vw solid $pink;
+        transition: .25s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-decorative_button:hover {
+        background-color: #FFFFFF;
+        color: $pink;
+    }
 
     .header-row_search {
         flex-wrap: wrap;
