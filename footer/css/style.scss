@@ -1,0 +1,69 @@
+@import "base-scss.scss";
+
+footer {
+    background-color: $pink;
+
+    .container {
+        width: 89.375vw;
+    }
+
+    button {
+        outline: 0;
+        border: 0;
+        background: transparent;
+    }
+}
+
+.footer-first_wrapper {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.footer-nav__ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav__li {
+    span {
+        font-weight: 700;
+        font-size: 1.250vw;
+        line-height: 1.458vw;
+        letter-spacing: 0;
+        text-align: left;
+        color: #FFFFFF;
+    }
+}
+
+.footer-nav__a {
+    font-size: 1.250vw;
+    font-weight: 400;
+    line-height: 1.458vw;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.search-button {
+    width: 48.125vw;
+    font-size: 1.354vw;
+    padding: 0.417vw 0;
+    border-radius: 1.302vw;
+    border-color: $pink;
+    color: #B2B3B3;
+    padding-left: 0.938vw;
+}
+
+.search-button:focus-visible {
+    outline: $pink;
+}
+
+
+.search-button_footer {
+    width: 25.313vw;
+}

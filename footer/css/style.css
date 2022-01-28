@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), url("/fonts/roboto.woff2") format("woff2"), url("/fonts/roboto.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 95.795vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media all and (max-width: 415px) {
+  .container {
+    width: 91.807vw;
+  }
+}
+
+footer {
+  background-color: #E4097F;
+}
+
+footer .container {
+  width: 89.375vw;
+}
+
+footer button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+}
+
+.footer-first_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-first_wrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-nav__li span {
+  font-weight: 700;
+  font-size: 1.250vw;
+  line-height: 1.458vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.footer-nav__a {
+  font-size: 1.250vw;
+  font-weight: 400;
+  line-height: 1.458vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.search-button {
+  width: 48.125vw;
+  font-size: 1.354vw;
+  padding: 0.417vw 0;
+  border-radius: 1.302vw;
+  border-color: #E4097F;
+  color: #B2B3B3;
+  padding-left: 0.938vw;
+}
+
+.search-button:focus-visible {
+  outline: #E4097F;
+}
+
+.search-button_footer {
+  width: 25.313vw;
+}
+/*# sourceMappingURL=style.css.map */
