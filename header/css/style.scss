@@ -445,6 +445,9 @@
 
     .header-row_right {
         .header-row_right-decorative_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: #B0842C;
             color: #FFFFFF;
             font-weight: 700;
@@ -452,11 +455,13 @@
             letter-spacing: 0;
             transition: .25s;
             border: 0.052vw solid transparent;
-            padding: 5.392vw 7.194vw;
+            width: 100vw;
+            height: 12.530vw;
 
             a {
                 color: #FFFFFF;
                 font-size: 5.783vw;
+                padding: 0;
             }
 
             a:hover {
