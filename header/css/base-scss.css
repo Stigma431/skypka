@@ -30,4 +30,10 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
+@media all and (max-width: 415px) {
+  .container {
+    width: 91.807vw;
+  }
+}
 /*# sourceMappingURL=base-scss.css.map */

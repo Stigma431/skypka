@@ -38,3 +38,10 @@ body {
   padding: 0;
 }
 
+@media all and (max-width: 415px) {
+  $coefficient: 4;
+
+  .container {
+    width: 91.807vw;
+  }
+}

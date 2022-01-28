@@ -32,10 +32,16 @@
     img {
         width: auto;
         height: 1.833vw;
-        padding: 0 1.042vw;
+        padding: 0 0;
         vertical-align: middle;
     }
 
+}
+
+.header-item:last-child {
+    img {
+        padding-right: 0.781vw;
+    }
 }
 
 .deviders-header {
@@ -47,7 +53,7 @@
 
     .container.contact-header_container {
         margin: 0;
-        padding: 0 2.083vw * $coefficient;
+        padding: 0 0;
         background-color: #4D4D4D;
     }
 
@@ -64,7 +70,7 @@
     }
 
     .header-item {
-        font-size: 2.092vw;
+        font-size: 2.892vw;
         font-weight: 400;
         line-height: 1.458vw * $coefficient;
         letter-spacing: 0;
@@ -87,20 +93,21 @@
 
     .header-item_phone {
         img {
-            padding-left: 2.8vw;
+            padding-left: 2.2vw;
         }
     }
 
     .header-item_mobile-reverse {
         flex-direction: row-reverse;
+        justify-content: flex-end;
     }
 
     .header-item_left {
-        width: 28.1vw;
+        width: 34.799vw;
     }
 
     .header-item_right {
-        width: 50.3vw;
+        width: 58.031vw;
     }
 
     .deviders-header {
@@ -108,6 +115,10 @@
         display: none;
     }
 
+}
+
+.header-row_menu {
+    padding: 0.938vw 0;
 }
 
 .logo {
@@ -168,6 +179,7 @@
         }
     }
 }
+
 .header-row {
     button {
         outline: 0;
@@ -195,18 +207,20 @@
     color: $pink;
 }
 
-.header-row_menu {
-    padding: 0.938vw;
-}
-
 @media all and (max-width: 415px) {
     $coefficient: 4;
+
+    .header-row_menu {
+        padding: 1.446vw 0;
+        display: flex;
+        align-items: center;
+    }
 
     .logo {
         width: 15.422vw;
         height: 15.422vw;
     }
-    
+
     .header-row {
         ul {
             width: 38.333vw;
@@ -214,7 +228,7 @@
             justify-content: space-between;
         }
     }
-    
+
     .main-nav {
         font-size: 1.250vw;
         font-weight: 400;
@@ -224,21 +238,21 @@
         color: #4D4D4D;
         transition: .25s;
     }
-    
+
     .main-nav:hover {
         color: $pink;
     }
-    
+
     .map {
         a {
             display: flex;
-    
+
             img {
                 width: 6.024vw;
                 height: 6.024vw;
                 margin-right: 2.169vw;
             }
-    
+
             font-size: 2.892vw;
             font-weight: 400;
             line-height: 3.388vw;
@@ -247,12 +261,12 @@
             color: #4D4D4D;
         }
     }
-    
+
     .header-contacts {
         display: flex;
         justify-content: space-between;
         width: 20.395vw;
-    
+
         a {
             img {
                 width: 6.024vw;
@@ -260,6 +274,7 @@
             }
         }
     }
+
     .header-row {
         button {
             outline: 0;
@@ -267,7 +282,7 @@
             background: transparent;
         }
     }
-    
+
     .header-decorative_button {
         font-size: 2.410vw;
         font-weight: 700;
@@ -283,16 +298,168 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .header-decorative_button:hover {
         background-color: #FFFFFF;
         color: $pink;
     }
-    
-    .header-row_menu {
-        padding: 0.938vw;
+}
+
+.header-row_left {
+    display: flex;
+    background-color: $pink;
+    height: 4.688vw;
+    align-items: center;
+}
+
+.header-row_left-wrapper {
+    padding: 1.146vw 1.667vw 1.146vw 2.083vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69vw;
+
+    a {
+        img {
+            width: 2.500vw;
+            height: 2.344vw;
+        }
+    }
+}
+
+.header-catalog__wrap {
+    flex: 0;
+    margin-right: 0;
+}
+
+.header-catalog__button i {
+    margin-top: 0;
+    font-size: 1.406vw;
+}
+
+.header-catalog__button {
+    font-size: 1.563vw;
+    line-height: 1.823vw;
+    color: #FFFFFF;
+}
+
+.search-button {
+    width: 48.125vw;
+    font-size: 1.354vw;
+    padding: 0.417vw 0;
+    border-radius: 1.302vw;
+    border-color: $pink;
+    color: #B2B3B3;
+    padding-left: 0.938vw;
+}
+
+.search-button:focus-visible {
+    outline: $pink;
+}
+
+.header-row_right {
+    a {
+        padding: 1.433vw 3.958vw;
+        background-color: #B0842C;
+        color: #FFFFFF;
+        font-size: 1.563vw;
+        font-weight: 700;
+        line-height: 1.823vw;
+        letter-spacing: 0;
+        transition: .25s;
+        border: 0.052vw solid transparent;
+    }
+
+    a:hover {
+        background-color: #FFFFFF;
+        color: #B0842C;
+        border: 0.052vw solid #B0842C;
+    }
+}
+
+@media all and (max-width: 415px) {
+    $coefficient: 4;
+
+    .header-row_search {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-row_left {
         display: flex;
+        background-color: $pink;
+        height: 21.928vw;
         align-items: center;
     }
-    
+
+    .header-row_left-wrapper {
+        padding: 1.146vw * $coefficient 1.667vw * $coefficient 1.146vw * $coefficient 2.083vw * $coefficient;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+
+        a {
+            img {
+                width: 6.265vw;
+                height: 6.265vw;
+            }
+        }
+    }
+
+    .header-catalog__wrap {
+        flex: 0;
+        margin-right: 0;
+    }
+
+    .header-catalog__button i {
+        margin-top: 0;
+        font-size: 6.506vw;
+    }
+
+    .header-catalog__button {
+        span {
+            display: none;
+        }
+    }
+
+    .header-catalog__button {
+        font-size: 1.563vw;
+        line-height: 1.823vw;
+        color: #FFFFFF;
+    }
+
+    .search-button {
+        width: 56.241vw;
+        font-size: 2.892vw;
+        padding: 2.892vw 0;
+        border-radius: 5.402vw;
+        border-color: $pink;
+        color: #B2B3B3;
+        padding-left: 3.855vw;
+    }
+
+    .search-button:focus-visible {
+        outline: $pink;
+    }
+
+    .header-row_right {
+        height: 12.530vw;
+        a {
+            background-color: #B0842C;
+            color: #FFFFFF;
+            font-size: 5.783vw;
+            font-weight: 700;
+            line-height: 1.823vw;
+            letter-spacing: 0;
+            transition: .25s;
+            border: 0.052vw solid transparent;
+        }
+
+        a:hover {
+            background-color: #FFFFFF;
+            color: #B0842C;
+            border: 0.052vw solid #B0842C;
+        }
+    }
 }
