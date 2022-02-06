@@ -15,7 +15,7 @@ header {
           justify-content: center;
 }
 
-.text-page-flex-wrapper {
+header .text-page-flex-wrapper {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,19 +25,14 @@ header {
           justify-content: center;
 }
 
-.container.container-back__content {
+header .container.container-back__content {
   width: 37vw;
   margin-right: 0;
   margin-left: 0;
   padding: 0;
 }
 
-.breadcrumbs.breadcrumbs-watch {
-  margin-bottom: 1.042vw;
-  margin-top: 1.563vw;
-}
-
-.h1.h1-watch {
+header .h1.h1-watch {
   font-size: 1.875vw;
   font-weight: 400;
   line-height: 2.188vw;
@@ -47,12 +42,12 @@ header {
   margin-bottom: 2.083vw;
 }
 
-.container.container-back__content.container-back_breadcrumbs {
+header .container.container-back__content.container-back_breadcrumbs {
   margin-top: 5vw;
   margin-left: 12.5vw;
 }
 
-.text-page-content.text-page-content_fix {
+header .text-page-content.text-page-content_fix {
   font-size: 1.250vw;
   font-weight: 400;
   line-height: 1.458vw;
@@ -62,7 +57,7 @@ header {
   margin-bottom: 3.683vw;
 }
 
-.watch-header_decorative-button {
+header .watch-header_decorative-button {
   font-size: 1.563vw;
   font-weight: 700;
   line-height: 1.823vw;
@@ -76,12 +71,12 @@ header {
           transition-duration: 1s;
 }
 
-.watch-header_decorative-button:hover {
+header .watch-header_decorative-button:hover {
   background-color: #FFFFFF;
   color: #E4097F;
 }
 
-.right-wrapper {
+header .right-wrapper {
   width: 37.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,7 +90,7 @@ header {
           align-items: flex-end;
 }
 
-.right-wrapper .city {
+header .right-wrapper .city {
   font-size: 1.563vw;
   font-weight: 400;
   line-height: 1.823vw;
@@ -105,7 +100,7 @@ header {
   margin-bottom: 1.510vw;
 }
 
-.right-wrapper .watch-time {
+header .right-wrapper .watch-time {
   font-size: 1.302vw;
   font-style: normal;
   font-weight: 400;
@@ -115,7 +110,7 @@ header {
   margin-bottom: 1.094vw;
 }
 
-.right-wrapper .phone-number_watch {
+header .right-wrapper .phone-number_watch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,12 +123,12 @@ header {
   margin-bottom: 0.938vw;
 }
 
-.right-wrapper .phone-number_watch img {
+header .right-wrapper .phone-number_watch img {
   width: 2.448vw;
   height: 2.448vw;
 }
 
-.right-wrapper .phone-number_watch a {
+header .right-wrapper .phone-number_watch a {
   font-size: 1.302vw;
   font-style: normal;
   font-weight: 700;
@@ -143,20 +138,20 @@ header {
   color: #E4097F;
 }
 
-.right-wrapper .watch-social .watch-social_link {
+header .right-wrapper .watch-social .watch-social_link {
   margin-right: 0.796vw;
 }
 
-.right-wrapper .watch-social .watch-social_link img {
+header .right-wrapper .watch-social .watch-social_link img {
   width: 3.021vw;
   height: 3.021vw;
 }
 
-.right-wrapper .watch-social .watch-social_link:last-child {
+header .right-wrapper .watch-social .watch-social_link:last-child {
   margin-right: 0;
 }
 
-.right-wrapper .watch-header_decorative-button-mobile {
+header .right-wrapper .watch-header_decorative-button-mobile {
   display: none;
 }
 
@@ -177,7 +172,7 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .text-page-flex-wrapper {
+  header .text-page-flex-wrapper {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -186,32 +181,27 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container.container-back__content {
+  header .container.container-back__content {
     width: 38.5vw;
     margin-right: 0;
     margin-left: 0;
     padding: 0;
   }
-  .breadcrumbs.breadcrumbs-watch .breadcrumbs__li {
-    margin-bottom: 0;
-    margin-top: 2.0319vw;
-    font-size: 1.171vw;
-  }
-  .h1.h1-watch {
+  header .h1.h1-watch {
     font-size: 2.4375vw;
     margin-bottom: 2.0079vw;
   }
-  .container.container-back__content.container-back_breadcrumbs {
+  header .container.container-back__content.container-back_breadcrumbs {
     margin-top: 0;
     margin-left: 7.25vw;
   }
-  .text-page-content.text-page-content_fix {
+  header .text-page-content.text-page-content_fix {
     max-width: 100vw;
     margin: 0;
     margin-bottom: 3.683vw;
     font-size: 1.318vw;
   }
-  .watch-header_decorative-button-mobile {
+  header .watch-header_decorative-button-mobile {
     display: none;
   }
 }
@@ -233,7 +223,7 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .text-page-flex-wrapper {
+  header .text-page-flex-wrapper {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -246,7 +236,7 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container.container-back__content {
+  header .container.container-back__content {
     width: 95vw;
     margin: 0 auto;
     padding: 0;
@@ -259,12 +249,7 @@ header {
             flex-direction: column;
     margin-bottom: 3.614vw;
   }
-  .breadcrumbs.breadcrumbs-watch .breadcrumbs__li {
-    margin-bottom: 0;
-    margin-top: 6.252vw;
-    font-size: 4.684vw;
-  }
-  .h1.h1-watch {
+  header .h1.h1-watch {
     font-size: 8.675vw;
     font-weight: 400;
     line-height: 10.120vw;
@@ -281,20 +266,20 @@ header {
         -ms-flex-align: center;
             align-items: center;
   }
-  .h1.h1-watch br {
+  header .h1.h1-watch br {
     display: none;
   }
-  .container.container-back__content.container-back_breadcrumbs {
+  header .container.container-back__content.container-back_breadcrumbs {
     margin-top: 0;
     margin-left: 3.15vw;
   }
-  .text-page-content.text-page-content_fix {
+  header .text-page-content.text-page-content_fix {
     display: none;
   }
-  .watch-header_decorative-button {
+  header .watch-header_decorative-button {
     display: none;
   }
-  .right-wrapper {
+  header .right-wrapper {
     width: 95vw;
     margin: 0 auto;
     display: -webkit-box;
@@ -308,7 +293,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
   }
-  .right-wrapper .city {
+  header .right-wrapper .city {
     font-size: 7.229vw;
     font-weight: 400;
     line-height: 8.434vw;
@@ -318,7 +303,7 @@ header {
     text-align: center;
     margin-bottom: 3.614vw;
   }
-  .right-wrapper .watch-time {
+  header .right-wrapper .watch-time {
     font-size: 6.024vw;
     font-weight: 400;
     line-height: 6.988vw;
@@ -326,7 +311,7 @@ header {
     text-align: center;
     margin-bottom: 3.614vw;
   }
-  .right-wrapper .phone-number_watch {
+  header .right-wrapper .phone-number_watch {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -338,11 +323,11 @@ header {
             align-items: center;
     margin-bottom: 3.614vw;
   }
-  .right-wrapper .phone-number_watch img {
+  header .right-wrapper .phone-number_watch img {
     width: 11.325vw;
     height: 11.325vw;
   }
-  .right-wrapper .phone-number_watch a {
+  header .right-wrapper .phone-number_watch a {
     font-size: 6.024vw;
     font-weight: 700;
     line-height: 6.988vw;
@@ -350,20 +335,20 @@ header {
     text-align: center;
     color: #E4097F;
   }
-  .right-wrapper .watch-social {
+  header .right-wrapper .watch-social {
     display: none;
   }
-  .right-wrapper .watch-social .watch-social_link {
+  header .right-wrapper .watch-social .watch-social_link {
     margin-right: 0.796vw;
   }
-  .right-wrapper .watch-social .watch-social_link img {
+  header .right-wrapper .watch-social .watch-social_link img {
     width: 3.021vw;
     height: 3.021vw;
   }
-  .right-wrapper .watch-social .watch-social_link:last-child {
+  header .right-wrapper .watch-social .watch-social_link:last-child {
     margin-right: 0;
   }
-  .right-wrapper .watch-header_decorative-button-mobile {
+  header .right-wrapper .watch-header_decorative-button-mobile {
     font-size: 6.747vw;
     font-weight: 700;
     line-height: 7.952vw;
@@ -377,7 +362,7 @@ header {
             transition-duration: 1s;
     display: block;
   }
-  .right-wrapper .watch-header_decorative-button-mobile:hover {
+  header .right-wrapper .watch-header_decorative-button-mobile:hover {
     background-color: #FFFFFF;
     color: #E4097F;
   }
