@@ -36,4 +36,384 @@ body {
     width: 91.807vw;
   }
 }
+
+.communication-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.communication-flex .application-wrapper {
+  width: 49.479vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F2F2F2;
+}
+
+.communication-flex .application-wrapper .application-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.communication-flex .application-wrapper .application-text {
+  font-size: 1.875vw;
+  font-weight: 700;
+  line-height: 2.188vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000000;
+  margin-left: 1.542vw;
+}
+
+.communication-flex .application-wrapper .application-text span {
+  color: #E4097F;
+}
+
+.communication-flex .application-wrapper .checkout-order-form-col {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.communication-flex .application-wrapper .checkout-order-form__input {
+  font-size: 0.833vw;
+  line-height: 1.33;
+  resize: none;
+  padding: 0 1.042vw 0 0;
+  width: 24.847vw;
+  height: 2.188vw;
+  max-width: 100vw;
+  outline: 0;
+  border: 0;
+  color: #000000;
+  border-bottom: 0.104vw solid #C4C4C4;
+  background-color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.communication-flex .application-wrapper .checkout-order-form__input:not(:last-child) {
+  margin-bottom: 1.563vw;
+}
+
+.communication-flex .application-wrapper .watch-header_decorative-button {
+  font-size: 1.563vw;
+  font-weight: 700;
+  line-height: 1.823vw;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background-color: #E4097F;
+  border: 0.052vw solid #E4097F;
+  padding: 0.625vw 2.240vw;
+  border-radius: 1.563vw;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  margin-top: 1.563vw;
+  cursor: pointer;
+}
+
+.communication-flex .application-wrapper .watch-header_decorative-button:hover {
+  background-color: #FFFFFF;
+  color: #E4097F;
+}
+
+.communication-flex .application-wrapper .communicate-img {
+  width: 21.458vw;
+  height: 25.104vw;
+}
+
+.communication-flex .communicate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 49.479vw;
+  background-color: #F2F2F2;
+}
+
+.communication-flex .communicate .communicate-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 3.854vw;
+}
+
+.communication-flex .communicate .communicate-title {
+  font-size: 1.875vw;
+  font-weight: 700;
+  line-height: 2.188vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000000;
+}
+
+.communication-flex .communicate .communicate-info {
+  font-size: 1.250vw;
+  font-weight: 400;
+  line-height: 1.458vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000000;
+  margin-top: 1.042vw;
+}
+
+.communication-flex .communicate .phone-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.742vw;
+}
+
+.communication-flex .communicate .phone-title {
+  font-size: 1.250vw;
+  font-weight: 700;
+  line-height: 1.458vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000000;
+}
+
+.communication-flex .communicate .watch-header_decorative-button {
+  font-size: 1.563vw;
+  font-weight: 700;
+  line-height: 1.823vw;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background-color: #E4097F;
+  border: 0.052vw solid #E4097F;
+  padding: 0.625vw 2.240vw;
+  border-radius: 1.563vw;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  margin-top: 0.885vw;
+  cursor: pointer;
+}
+
+.communication-flex .communicate .watch-header_decorative-button:hover {
+  background-color: #FFFFFF;
+  color: #E4097F;
+}
+
+.communication-flex .communicate .communicate-img {
+  width: 21.458vw;
+  height: 25.104vw;
+}
+
+@media all and (max-width: 415px) {
+  .communication-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .communication-flex .application-wrapper {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-bottom: 4.458vw;
+  }
+  .communication-flex .application-wrapper .application-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-left: 6.988vw;
+  }
+  .communication-flex .application-wrapper .application-text {
+    font-size: 3.855vw;
+    font-weight: 700;
+    line-height: 4.578vw;
+    margin-left: 0;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .communication-flex .application-wrapper .application-text span {
+    color: #E4097F;
+  }
+  .communication-flex .application-wrapper .checkout-order-form-col {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .communication-flex .application-wrapper .checkout-order-form__input {
+    font-size: 2.410vw;
+    line-height: 1.33;
+    resize: none;
+    padding: 0 1.042vw 0 0;
+    width: 50.120vw;
+    height: 5.188vw;
+    max-width: 100vw;
+    outline: 0;
+    border: 0;
+    color: #000000;
+    border-bottom: 0.104vw solid #C4C4C4;
+    background-color: #f5f5f5;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .communication-flex .application-wrapper .checkout-order-form__input:not(:last-child) {
+    margin-bottom: 2.410vw;
+  }
+  .communication-flex .application-wrapper .watch-header_decorative-button {
+    font-size: 3.373vw;
+    font-weight: 700;
+    line-height: 1.823vw;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: #E4097F;
+    border: 0.052vw solid #E4097F;
+    padding: 2.169vw 5.447vw;
+    border-radius: 6.252vw;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+    margin-top: 1.563vw;
+    cursor: pointer;
+  }
+  .communication-flex .application-wrapper .watch-header_decorative-button:hover {
+    background-color: #FFFFFF;
+    color: #E4097F;
+  }
+  .communication-flex .application-wrapper .communicate-img {
+    width: 43.328vw;
+    height: 52.048vw;
+  }
+  .communication-flex .communicate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+    background-color: #F2F2F2;
+  }
+  .communication-flex .communicate .communicate-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 6.988vw;
+  }
+  .communication-flex .communicate .communicate-title {
+    font-size: 3.855vw;
+    font-weight: 700;
+    line-height: 4.578vw;
+    letter-spacing: 0;
+  }
+  .communication-flex .communicate .communicate-info {
+    font-size: 2.892vw;
+    font-weight: 400;
+    line-height: 3.373vw;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+    margin-top: 1.042vw;
+  }
+  .communication-flex .communicate .phone-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1.742vw;
+  }
+  .communication-flex .communicate .phone-title {
+    font-size: 2.892vw;
+    font-weight: 700;
+    line-height: 3.373vw;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000000;
+  }
+  .communication-flex .communicate .watch-header_decorative-button {
+    font-size: 3.373vw;
+    font-weight: 700;
+    line-height: 1.823vw;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: #E4097F;
+    border: 0.052vw solid #E4097F;
+    padding: 2.5vw 8.96vw;
+    border-radius: 6.252vw;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+    margin-top: 0.885vw;
+    cursor: pointer;
+  }
+  .communication-flex .communicate .watch-header_decorative-button:hover {
+    background-color: #FFFFFF;
+    color: #E4097F;
+  }
+  .communication-flex .communicate .communicate-img {
+    width: 43.328vw;
+    height: 52.048vw;
+  }
+}
 /*# sourceMappingURL=style.css.map */

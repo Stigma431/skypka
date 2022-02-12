@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="communication-flex">
-        <div class="application-form">
-            <div class="application-text">
-                Не нашли, что искали?
-                <span>Оставьте заявку<br>
-                    на подбор!</span>
+        <div class="application-wrapper">
+            <div class="application-form">
+                <div class="application-text">
+                    Не нашли, что искали?
+                    <span>Оставьте заявку<br>
+                        на подбор!</span>
+                </div>
+                <form action="#">
+                    <div class="checkout-order-form-col">
+                        <input type="text" name="NAME" class="simple-input checkout-order-form__input"
+                            placeholder="Название и характеристики" required="required">
+                        <input type="text" name="NAME" class="simple-input checkout-order-form__input"
+                            placeholder="Представьтесь пожалуйста" required="required">
+                        <input type="tel" name="PHONE" class="simple-input checkout-order-form__input"
+                            placeholder="Введите телефон" required="required">
+                    </div>
+                    <button type="submit" class="watch-header_decorative-button">Оцените часы онлайн</button>
+                </form>
             </div>
-            <div class="checkout-order-form-col">
-                <input type="text" name="NAME" class="simple-input checkout-order-form__input" placeholder="Название и характеристики" required="required">
-                <input type="text" name="NAME" class="simple-input checkout-order-form__input" placeholder="Представьтесь пожалуйста" required="required">
-                <input type="tel" name="PHONE" class="simple-input checkout-order-form__input" placeholder="Введите телефон" required="required">
-            </div>
+            <img class="communicate-img" src="../images/communicate_left.png" alt="">
         </div>
         <div class="communicate">
-
+            <div class="communicate-wrapper">
+                <div class="communicate-content">
+                    <div class="communicate-title">
+                        Работа <br>
+                        в нашей компании
+                    </div>
+                    <div class="communicate-info">
+                        Обучение, карьерный рост, <br>
+                        конкурентоспособная <br>
+                        заработная плата, <br>
+                        стабильные выплаты.
+                    </div>
+                </div>
+                <div class="phone-info">
+                    <div class="phone-title">Рекрутер</div>
+                    <a href="tel: +79261547022" class="watch-header_decorative-button">+7 926 154-70-22</a>
+                </div>
+            </div>
+            <img class="communicate-img" src="../images/communicate_right.png" alt="">
         </div>
     </div>
 </body>
+
 </html>
