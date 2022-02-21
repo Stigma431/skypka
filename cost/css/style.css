@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), url("/fonts/roboto.woff2") format("woff2"), url("/fonts/roboto.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 95.795vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media all and (max-width: 415px) {
+  .container {
+    width: 91.807vw;
+  }
+}
+
+.cost .cost_flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost .cost-title {
+  font-size: 1.771vw;
+  font-weight: 700;
+  line-height: 2.083vw;
+  letter-spacing: 0;
+  text-align: left;
+  color: #000000;
+}
+
+.cost .cost-title span {
+  color: #E4097F;
+}
+
+.cost .cost-steps-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cost .cost-step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.156vw solid #999999;
+  border-radius: 50%;
+}
+
+.cost .cost-step .cost-step_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.615vw 2.083vw;
+}
+
+.cost .cost-step img {
+  width: 4.844vw;
+  height: 4.688vw;
+}
+
+.cost .cost-step .cost-step_text {
+  font-size: 0.990vw;
+  font-weight: 400;
+  line-height: 1.2vw;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 1.250vw;
+}
+
+.cost .cost-step .cost-step_text a {
+  color: #E4097F;
+}
+
+.cost .border {
+  width: 4.479vw;
+  height: 0.156vw;
+  background-color: #999999;
+}
+
+.cost .decorative-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cost .more-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.354vw;
+  font-weight: 400;
+  line-height: 1.615vw;
+  letter-spacing: 0;
+  text-align: center;
+  color: #999999;
+}
+
+.cost .more-info img {
+  width: 1.510vw;
+  height: 1.458vw;
+}
+
+.cost .decorative-button {
+  font-size: 1.354vw;
+  font-weight: 700;
+  line-height: 1.823vw;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background-color: #E4097F;
+  border: 0.052vw solid #E4097F;
+  padding: 0.625vw 2.240vw;
+  border-radius: 1.563vw;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  margin-top: 0.625vw;
+  cursor: pointer;
+}
+
+.cost .decorative-button:hover {
+  background-color: #FFFFFF;
+  color: #E4097F;
+}
+/*# sourceMappingURL=style.css.map */

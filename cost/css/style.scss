@@ -1,0 +1,112 @@
+@import "base-scss.scss";
+
+.cost {
+    .cost_flex-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cost-title {
+        font-size: 1.771vw;
+        font-weight: 700;
+        line-height: 2.083vw;
+        letter-spacing: 0;
+        text-align: left;
+        color: #000000;
+    
+        span {
+            color: $pink;
+        }
+    }
+    
+    .cost-steps-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cost-step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 0.156vw solid #999999;
+        border-radius: 50%;
+    
+        .cost-step_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.615vw 2.083vw;
+        }
+
+        img {
+            width: 4.844vw;
+            height: 4.688vw;
+        }
+    
+        .cost-step_text {
+            font-size: 0.990vw;
+            font-weight: 400;
+            line-height: 1.2vw;
+            letter-spacing: 0;
+            text-align: center;
+            margin-top: 1.250vw;
+
+    
+            a {
+                color: $pink;
+            }
+        }
+    }
+
+    .border {
+        width: 4.479vw;
+        height: 0.156vw;
+        background-color: #999999;
+    }
+    
+    .decorative-button-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .more-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 1.354vw;
+        font-weight: 400;
+        line-height: 1.615vw;
+        letter-spacing: 0;
+        text-align: center;
+        color: #999999;
+    
+        img {
+            width: 1.510vw;
+            height: 1.458vw;
+        }
+    }
+    
+    .decorative-button {
+        font-size: 1.354vw;
+        font-weight: 700;
+        line-height: 1.823vw;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        background-color: #E4097F;
+        border: 0.052vw solid #E4097F;
+        padding: 0.625vw 2.240vw;
+        border-radius: 1.563vw;
+        transition-duration: 1s;
+        margin-top: 0.625vw;
+        cursor: pointer;
+    }
+    
+    .decorative-button:hover {
+        background-color: #FFFFFF;
+        color: #E4097F;
+    }
+}
