@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), url("/fonts/roboto.woff2") format("woff2"), url("/fonts/roboto.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 95.795vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media all and (max-width: 415px) {
+  .container {
+    width: 91.807vw;
+  }
+}
+/*# sourceMappingURL=base-scss.css.map */
